@@ -144,6 +144,12 @@ img {
   text-align: center;
 }
 
+.hero > .container {
+  width: 696px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .hero-title {
   margin-top: 0;
   margin-bottom: 30px;
@@ -169,6 +175,12 @@ img {
   letter-spacing: 0.06em;
 
   cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+  color: var(--white-color);
+  background-color: #188ce8;
 }
 
 /* Секция "качества команды" */
@@ -246,8 +258,13 @@ img {
   margin-left: 0;
 }
 
+.team-signature {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
 .team-list-name {
-  margin-top: 30px;
+  margin-top: 0;
   margin-bottom: 10px;
 
   font-weight: 500;
@@ -258,7 +275,7 @@ img {
 
 .team-list-position {
   margin-top: 0;
-  margin-bottom: 30px;
+  margin-bottom: 0;
 
   color: var(--secondary-text-color);
   font-size: 16px;
@@ -277,6 +294,8 @@ img {
 .footer .logo {
   display: block;
   margin-bottom: 20px;
+  padding-bottom: 0;
+  padding-top: 0;
 
   color: var(--white-color);
 }
